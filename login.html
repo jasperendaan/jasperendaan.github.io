@@ -1,8 +1,5 @@
-<script type="text/javascript"><!--
-var password = "jdsite";
-var string = prompt("Please enter the password", "");
-if(string!=password) {
-alert("Wrong password!");
-window.location="index.html";
-}
-//--></script>
+function popitup(login.html,LOL) {
+       newwindow=window.open(login.html,LOL,'height=200,width=150');
+       if (window.focus) {newwindow.focus()}
+       return false;
+     }
